@@ -32,7 +32,10 @@ def validstr(inp_str):
     """Desc: Validates the input string if it has only string
        Input: input string
        Output: bool: if passes string is valid, retrun true otherwise false"""
-    if re.match(r"^[a-zA-Z\s]+$", inp_str):  # Checks if the input has only letters and spaces
+    inp_str = inp_str.strip()                    # removes extra space from start and end position of the string
+    if (not inp_str)  or ('  ' in inp_str):      # checks if input is not empty string and doesnt have more spaces in between
+        return False
+    if re.match(r'^[A-Za-z]+( [A-Za-z]+)*$', inp_str) :  # Checks if the input has only letters and spaces
         return True                          # returns true if it does
     else:
         return False                         # returns false otherwise
@@ -42,5 +45,7 @@ if __name__ == "__main__":
     if validstr(inp_str) is True and (inp_str!='') is True and len(inp_str)>2:        # checking if the input is valid,not null and has more than two characters
         print(titleCase(inp_str))              #Call the titlecase func passing input parameter
     else:
-        print("Enter a valid string. It should have more than one letter. Only alphabets and spaces are allowed") # User message- tells user to give valid input
+        print("\nEnter a valid string. \nNote:It should have more than one letter. \
+              \n\tOnly alphabets and spaces are allowed. \
+              \n\tMultiple Spaces are not allowed") # User message- guides/tells user to give valid input
 
