@@ -2,7 +2,7 @@
 # GitHub             : https://github.com/vaishnabala
 # Purpose of Sharing : Learning
 # Exercise           : String
-# Sub Module         : Clean Coding
+# Sub Module         : A Try to Clean Coding
 # Problem            : 
 #     You will be given a string, containing a few spaces and random upper and lower cases. 
 #     You have to write a code that will add underscore in place of spaces and also capitalise the letters properly, 

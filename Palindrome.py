@@ -2,7 +2,7 @@
 # GitHub             : https://github.com/vaishnabala
 # Purpose            : Learning
 # Exercise           : String
-# Sub Module         : Clean Coding
+# Sub Module         : A Try to Clean Coding
 
 
 # Problem: Check if the given string in Palindrome

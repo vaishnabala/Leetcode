@@ -2,7 +2,7 @@
 # GitHub             : https://github.com/vaishnabala
 # Purpose of Sharing : Learning
 # Exercise           : String
-# Sub Module         : Clean Coding
+# Sub Module         : A Try to Clean Coding
 
 # Problem: Reverse the order word in a given sentence
 # Condition : The letters in the word should not be reversed

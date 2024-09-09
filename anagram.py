@@ -2,7 +2,7 @@
 # GitHub             : https://github.com/vaishnabala
 # Purpose of Sharing : Learning
 # Exercise           : String
-# Sub Module         : Clean Coding
+# Sub Module         : A Try to Clean Coding
 # Problem            : 
 #   Two strings are anagrams of each other if you can rearrange the characters of one string to make the other string.
 #   Given two strings, can you find if they are anagrams or no?
